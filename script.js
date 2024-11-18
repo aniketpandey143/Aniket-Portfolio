@@ -12,7 +12,7 @@ menu.onclick =()=> {
     menulist.classList.toggle('open');
 };
 
-window.onscroll =() => {
+window.onscroll = () => {
     menu.classList.remove('bx-x');
     menulist.classList.remove('open');
 };
