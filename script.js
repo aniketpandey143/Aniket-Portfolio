@@ -7,7 +7,7 @@ window.addEventListener("scroll", function(){
 let menu = document.getElementById('menu-icon');
 let menulist = document.querySelector('.menulist');
 
-menu.onclick =()=>{
+menu.onclick =()=> {
     menu.classList.toggle('bx-x');
     menulist.classList.toggle('open');
 };
